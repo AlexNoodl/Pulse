@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+    .container {
+        // padding: 0 40px;
+    }
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 30px;
+            margin: 0 auto;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons {
+            width: 350px;
+            margin: 0 auto;
+        }
+    }
+    .button {
+        width: 130px;
+        font-size: 10px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .advantage {
+        padding: 50px 20px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__item {
+            margin: 0 10px;
+        }
+        &__subtitle {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    }
+}
